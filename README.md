@@ -18,3 +18,31 @@ Here is an example image that represents a Pawn in 2D format (left) and an examp
     alt="3DKnight"></td>
   </tr>
 </table>
+
+### Setup (Manually)
+- Clone this repository to your workplace
+  - ```
+    git clone https://github.com/CanYouTeachMeHowToCode/AutoML-With-CreateML
+    ```
+- Download the dataset from [Kaggle](https://www.kaggle.com/niteshfre/chessman-image-dataset) and unzip the file.
+- Rename the unzipped folder to `data` (default) or your preferred directory name   `source_dir_path`.
+
+- Run command 
+  ```
+  python scripts/process.py
+  ```
+  To setup the dataset for training and testing with default settings (80% training and 20% testing).
+
+  Or run command 
+  ```
+  python scripts/process.py --source [source_dir_path] --dest-train [destination_train_dir_path] --dest-test [destination_test_dir_path] --ratio [ratio]
+  ```
+  To customize source and destination directories and train-test split ratio. Make sure that the `source_dir_path` is the same as the unzipped folder name.
+
+### Model Training & Evaluation 
+- Model 1
+  - Model Settings
+    ![model1](assets/Model1Settings.png)
+
+### References
+- [CreateML Recipe](https://github.com/noahgift/Apple-CreateML-AutoML-Recipes/tree/main)
