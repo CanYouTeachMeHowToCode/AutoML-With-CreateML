@@ -5,6 +5,8 @@ __pycache__/
 
 # data
 data
+test_data
+train_data
 
 # Mac OS stuff
 .DS_Store
