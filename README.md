@@ -42,7 +42,74 @@ Here is an example image that represents a Pawn in 2D format (left) and an examp
 ### Model Training & Evaluation 
 - Model 1
   - Model Settings
-    ![model1](assets/Model1Settings.png)
+    ![model1](assets/model1/Model1Settings.png)
+  - Model Training/Validation
+    ![model1](assets/model1/Model1Training.png)
+  - Model Evaluation
+    ![model1](assets/model1/Model1Test.png)
+
+- Model 1
+  - Model Settings
+    ![model1](assets/model1/Model1Settings.png)
+  - Model Training/Validation
+    ![model1](assets/model1/Model1Training.png)
+  - Model Evaluation
+    ![model1](assets/model1/Model1Test.png)
+
+- Model 2
+  - Model Settings
+    ![model2](assets/model2/Model2Settings.png)
+  - Model Training/Validation
+    ![model2](assets/model2/Model2Training.png)
+  - Model Evaluation
+    ![model2](assets/model2/Model2Test.png)
+
+- Model 3
+  - Model Settings
+    ![model3](assets/model3/Model3Settings.png)
+  - Model Training/Validation
+    ![model3](assets/model3/Model3Training.png)
+  - Model Evaluation
+    ![model3](assets/model3/Model3Test.png)
+
+- Model 4
+  - Model Settings
+    ![model4](assets/model4/Model4Settings.png)
+  - Model Training/Validation
+    ![model4](assets/model4/Model4Training.png)
+  - Model Evaluation
+    ![model4](assets/model4/Model4Test.png)
+
+### Model Prediction
+Based on the evaluation results, Model 3 has the best performance. Therefore, Model 3 is used to predict the chess pieces from a given image.
+
+Here are the prediction results for a few examples piece images:
+<table>
+  <tr>
+    <td><img src="assets/testing_examples_prediction/bishop.png" 
+    width="600"
+    alt="bishop"></td>
+  </tr>
+  </tr>
+    <td><img src="assets/testing_examples_prediction/pawn.png" 
+    width="600"
+    alt="pawn"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/testing_examples_prediction/queen.png" 
+    width="600"
+    alt="queen"></td>
+  </tr>
+  </tr>
+    <td><img src="assets/testing_examples_prediction/rook.png" 
+    width="600"
+    alt="rook"></td>
+  </tr>
+
+</table>
+
+### Conclusion
+From the prediction results and the evaluation results above, we can figure out that the models serves well for most chess piece images, yet it may confuse on images of similar pieces like pawn, bishop, and queen.
 
 ### References
 - [CreateML Recipe](https://github.com/noahgift/Apple-CreateML-AutoML-Recipes/tree/main)
